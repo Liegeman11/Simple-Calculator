@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec{
+    border-radius: 10px;
+    margin: auto;
+    width: 100px;
+    height: 400px;
+    padding-bottom: 200px;
+    margin-top: 100px;
+    
+    
+
+}
+h1{
+    font-size: 80px;
+    font-weight: bolder;
+    position: absolute;
+    left: 500px;
+    top: 10px;
+}
+#displayNumber{
+    width: 400px;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: -150px;
+    border: 5px solid black;
+    /* overflow-wrap: break-word; */
+    overflow: hidden;
+}
+.div1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 5px;
+    /* margin: 50px 500px; */
+}
+#btt{
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#btt1{
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    margin-left: -155px;
+    /* position: absolute;
+    top:170px; */
+    margin-bottom: px;
+    margin-top: px;
+}
+#btt2{
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: green;
+    color: white;
+}
+#btt3{
+    padding: 10px;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    /* margin-top: 80px; */
+    position: relative;
+    top:80px;
+    margin-left: -50px;
+    
+}
